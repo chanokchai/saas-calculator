@@ -343,7 +343,7 @@ export default function CalculatorPage() {
             <Metric
               label="Customer Lifetime"
               value={`${results.customerLifetimeMonths.toFixed(1)} mo`}
-              hint={results.churnRate > 0 ? `At ${inputs.churnRate}% churn` : "No churn"}
+              hint={inputs.churnRate > 0 ? `At ${inputs.churnRate}% churn` : "No churn"}
             />
             <Metric
               label="CAC"
