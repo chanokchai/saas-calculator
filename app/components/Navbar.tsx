@@ -25,7 +25,10 @@ export default function Navbar() {
               <circle cx="16" cy="16" r="12" />
               <path d="M10 16h12M16 10v12" strokeLinecap="round" />
             </svg>
-            SaaS Calc
+            SaaS Calc{" "}
+            <span className="text-xs font-normal text-gray-400 dark:text-gray-500">
+              powered by JJB
+            </span>
           </Link>
 
           {/* Desktop nav */}

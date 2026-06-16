@@ -229,7 +229,10 @@ export default function CalculatorPage() {
       {/* Page header */}
       <div className="text-center mb-12">
         <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white">
-          SaaS ROI Calculator
+          SaaS ROI Calculator{" "}
+          <span className="text-base font-normal text-gray-400 dark:text-gray-500">
+            · powered by JJB
+          </span>
         </h1>
         <p className="mt-3 text-gray-600 dark:text-gray-400 max-w-xl mx-auto">
           Adjust the sliders below and see your key metrics update instantly.
